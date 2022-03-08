@@ -4,6 +4,13 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
+.dflex {
+    display: flex;
+}
+.inlineFlex {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
 
 header{
     background-color: #fff;
@@ -156,5 +163,39 @@ header{
     gap: 50px;
     margin: auto;
     
+    
+}
+.ConteudoLojas {
+    display: flex;
+    justify-content: space-between;
+}
+.ConteudoLojas a {
+    text-decoration: none;
+    color: red;
+}
+.lojaIfood {
+    
+    
+}
+.titleUltimasLojas {
+    margin-top: 20px;
+}
+.titleUltimasLojas h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.uLojas {
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+.uLojas p{
+    text-align: center;
+}
+.uLojas picture img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
     
 }
