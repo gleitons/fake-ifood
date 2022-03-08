@@ -8,7 +8,6 @@ body{
 header{
     background-color: #fff;
     width: 100%;
-    position: fixed;
     top: 0px;
     left: 0px;
     padding: 10px 10px;
@@ -39,7 +38,7 @@ header{
     float: left;
     margin-left: -290px;
     padding-left: 10px;
-    top: 30px;
+    top: 40px;
     
     
 }
@@ -53,7 +52,7 @@ header{
     
 }
 .endereco i {
-    font-size: 25px;
+    font-size: 30px;
     margin: 15px;
     color: red;
 }
@@ -78,15 +77,12 @@ header{
     justify-content: space-evenly;
     gap: 10px
 }
-<<<<<<< HEAD
+
 .mBusca {
     background-image: url(./assests/images/icones/Mercado.jpg);
     background-size: cover;
     
 }
-=======
-
->>>>>>> c020e1adf99c7a742ab492a2f2131f67c00fabd8
 .endereco {
     display: flex;
     justify-content: space-evenly;
@@ -120,6 +116,7 @@ header{
 
 .item_lista_cabecalho2 button {
     padding: 10px 15px;
+    color: rgb(100, 100, 100);
     background-color: rgba(240, 248, 255, 0);
     border-radius: 20px;
     border: rgb(156, 156, 156) solid 1px;
