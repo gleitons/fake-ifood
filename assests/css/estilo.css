@@ -5,6 +5,15 @@ body{
     
 }
 
+header{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px 10px;
+}
+
 .cabecalho1{
     width: 90%;
     margin: auto;
@@ -69,11 +78,15 @@ body{
     justify-content: space-evenly;
     gap: 10px
 }
+<<<<<<< HEAD
 .mBusca {
     background-image: url(./assests/images/icones/Mercado.jpg);
     background-size: cover;
     
 }
+=======
+
+>>>>>>> c020e1adf99c7a742ab492a2f2131f67c00fabd8
 .endereco {
     display: flex;
     justify-content: space-evenly;
