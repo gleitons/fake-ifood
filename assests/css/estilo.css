@@ -130,6 +130,12 @@ header{
     background-color: rgba(240, 248, 255, 0);
     border-radius: 20px;
     border: rgb(156, 156, 156) solid 1px;
+    transition: 200ms;
+}
+.item_lista_cabecalho2 button:hover {
+    background-color:rgb(156, 156, 156);
+    cursor: pointer;
+    color: white;
 }
 .iconesImg ul{
     display: flex;
@@ -218,6 +224,14 @@ header{
     flex-wrap: wrap;
     margin: 10px;
     justify-content: space-between;
+    text-decoration: none;
+}
+.galeriaLojas a{
+    text-decoration: none;
+    color: black;
+}
+.galeriaLojas a:hover{
+    filter: brightness(100%);
 }
 .lojaInfo {
     margin: 20px 0;
@@ -242,6 +256,7 @@ header{
 }
 .ramo .cassificacao {
     gap: 10px;
+    color: rgb(231, 209, 9);
 }
 .imagemLoja {
     width: 120px;
@@ -251,6 +266,9 @@ header{
     height: 100px;
     position: relative;
 
+}
+.cidadesI div nav li a {
+    color: rgb(51, 51, 51);
 }
 .minPreco {
     gap: 10px;
@@ -284,4 +302,41 @@ header{
     font-size: 7px;
     margin-right: 10px;
     
+}
+/********Explore por cidades ******/
+
+.cidadesIfood {
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.cidadesI {
+    display: flex;
+}
+.cidadesI div h3 {
+    font-weight: 700;
+    color: black;
+}
+.cidadesI div a {
+    text-decoration: none;
+}
+.cidadesI div{
+    width: 282px;    
+    list-style: none;
+    margin-top: 10px;
+    line-height: 40px;
+}
+.linhaCol {
+    height: 10px;
+    border-bottom: solid rgb(107, 107, 107) 1px;
+}
+.socialiFood {
+    font-size: 35px;
+    color:rgb(107, 107, 107);
+    
+    
+}
+.socialiFood > i {
+    gap: 20px;
+    cursor: pointer;
 }
