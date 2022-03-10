@@ -229,6 +229,7 @@ header{
 .galeriaLojas a{
     text-decoration: none;
     color: black;
+    margin-top: 20px;
 }
 .galeriaLojas a:hover{
     filter: brightness(100%);
